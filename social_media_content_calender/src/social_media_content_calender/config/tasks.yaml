@@ -1,0 +1,46 @@
+strategy_task:
+  description: >
+    Create a detailed 2-week social media content strategy 
+    for the given brand/product.
+    The strategy should include:
+      - Posting frequency
+      - Best platforms
+      - Content pillars distribution
+      - Daily content topics
+      - Suggested content formats
+      (Reels, Carousel, Stories, Tweets, etc.)
+  expected_output: >
+    A complete 14-day social media posting plan 
+    with platform recommendations and content mix.
+  agent: content_strategist
+
+writing_task:
+  description: >
+    Write all social media posts for the 14-day calendar.
+      Each post must include:
+        - Platform name
+        - Caption
+        - CTA
+        - Relevant hashtags
+
+      Ensure the tone is engaging, modern, and 
+      optimized for social media reach.
+  expected_output: >
+    A full set of social media captions and hashtags 
+    for all 14 days.
+  agent: post_writer
+
+engagement_hook_task:
+  description: >
+    Review every generated post and rewrite the first line 
+    to make it more attention-grabbing and scroll-stopping
+
+      Focus on:
+        - Curiosity
+        - Emotional triggers
+        - Viral-style hooks
+        - Audience retention
+  expected_output: >
+     All posts rewritten with stronger opening hooks
+     for better engagement.
+  agent: engagement_hook_reviewer
